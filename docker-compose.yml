@@ -11,3 +11,7 @@ services:
     ports:
       - ${DB_PORT}:3306
     restart: "no"
+    volumes:
+      - ./romm_mock/database:/var/lib/mysql
+    env_file:
+      - .env

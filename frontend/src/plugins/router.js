@@ -21,6 +21,10 @@ const routes = [
   {
     path: '/settings/control-panel',
     component: () => import('@/views/settings/ControlPanel.vue')
+  },
+  {
+    path: '/disc-streaming',
+    component: () => import('@/views/settings/DiscStream.vue')
   }
 ]
 
